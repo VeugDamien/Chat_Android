@@ -1,0 +1,70 @@
+<resources>
+    <!-- Title -->
+    <string name="app_name">Chat\'app</string>
+    <string name="title_activity_fun">Have Fun!</string>
+    <string name="title_activity_chat">Chat</string>
+    <string name="title_activity_new_message">Nouveau Message</string>
+    <string name="title_activity_fun_setting">Fun Settings</string>
+    <string name="title_activity_fun_color">Choix couleur</string>
+    <string name="title_activity_show_attach">Pièces Jointes</string>
+    <string name="title_activity_attach">Mes pièces jointes</string>
+    <string name="title_activity_image_pick">Choix de l\'image</string>
+
+    <!-- Menu -->
+    <string name="action_settings">Settings</string>
+    <string name="action_fun">Have fun!</string>
+    <string name="action_refresh">Actualiser</string>
+    <string name="action_new_message">Nouveau Message</string>
+    <string name="action_quit">Quitter</string>
+    <string name="action_logout">Déconnexion</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_clear">Vider</string>
+    <string name="action_attach_del">Supprimer</string>
+    <string name="action_attach">Pièce Jointe</string>
+
+    <!-- Général -->
+    <string name="title">Formulaire de Connexion</string>
+    <string name="user">Nom Utilisateur</string>
+    <string name="pwd">Mot de Passe</string>
+    <string name="event_clear">Les champs ont été vidés</string>
+    <string name="yes">Oui</string>
+    <string name="cancel">Annuler</string>
+    <string name="send_hint">Entrez votre message...</string>
+    <string name="easter_egg">Fun!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="fun_color_draw">Couleur des dessins:</string>
+    <string name="fun_color_draw_selected">Couleur du dessin selectionné:</string>
+    <string name="enter">Enregistrer</string>
+    <string name="default_value">Valeur par défaut</string>
+    <string name="color_error">Erreur dans le changement des couleurs</string>
+    <string name="message_attach">Attach.</string>
+    <string name="receiver_sender">Expéditeur:</string>
+    <string name="receiver_message">Message:</string>
+
+    <!-- Evenement -->
+    <string name="event_accept_mdp_short_lenght">Mot de passe trop court</string>
+    <string name="event_accept_mdp_long_lenght">Mot de passe trop long</string>
+    <string name="event_accept">Connexion acceptée</string>
+    <string name="event_msg_send">Message envoyé</string>
+    <string name="event_error_msg_send">Echec envoie message</string>
+    <string name="event_register">Enregistrement Bon! Vous pouvez vous connecter.</string>
+
+    <!-- Erreur / Alerte -->
+    <string name="error_logon">Erreur connexion</string>
+    <string name="error_register">Erreur: Identifiant/Mot de Passe déjà existant</string>
+    <string name="error_refresh">Echec actualisation</string>
+    <string name="alert_logout">Voulez-vous vous déconnecter?</string>
+    <string name="warning">Attention !</string>
+
+    <!-- Radio Button -->
+    <string name="radio_square">Carré</string>
+    <string name="radio_circle">Cercle</string>
+    <string name="radio_nyan">Nyan Cat</string>
+
+    <!-- Button -->
+    <string name="but_reg">S\'enregistrer</string>
+    <string name="but_ok">Valider</string>
+    <string name="but_send">Envoyer</string>
+    <string name="but_pick_ok">Sélectionner</string>
+    <string name="but_pick_choose">Parcourir...</string>
+</resources>

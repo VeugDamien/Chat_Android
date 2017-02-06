@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/Header"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:background="#FFe0e0e0">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/title"
+            android:textSize="13pt"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Header"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/user" />
+
+        <EditText
+            android:id="@+id/edit_user"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="@string/user"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:selectAllOnFocus="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pwd" />
+
+        <EditText
+            android:id="@+id/edit_pwd"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="@string/pwd"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:password="true"
+            android:selectAllOnFocus="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/but_reg"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:text="@string/but_reg" />
+
+        <Button
+            android:id="@+id/but_accept"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:text="@string/but_ok" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp">
+
+    <ImageView
+        android:id="@+id/message_gravatar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:id="@+id/message_login"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/message_gravatar"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/message_login"
+        android:layout_toEndOf="@+id/message_gravatar"
+        android:layout_toRightOf="@+id/message_gravatar"
+        android:drawableBottom="@android:drawable/divider_horizontal_dark"
+        android:textColor="#504f4f" />
+
+    <Button
+        android:id="@+id/message_attach"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/message_gravatar"
+        android:text="@string/message_attach"
+        android:textSize="7sp"
+        android:visibility="gone" />
+</RelativeLayout>

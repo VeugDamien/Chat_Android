@@ -1,0 +1,11 @@
+com.example.damien.myapplication
+com.example.damien.myapplication.BroadcastReceiver
+com.example.damien.myapplication.Connection
+com.example.damien.myapplication.Model.Draw
+com.example.damien.myapplication.Model.Message
+com.example.damien.myapplication.UI
+com.example.damien.myapplication.UI.Activity
+com.example.damien.myapplication.UI.Adapter
+com.example.damien.myapplication.UI.Interface
+com.example.damien.myapplication.UI.Listener
+com.example.damien.myapplication.UI.View
